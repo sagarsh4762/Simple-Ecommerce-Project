@@ -1,6 +1,6 @@
 # **eCommerce API Testing - Postman Collection**
 
-#### 📦 **1. Login**
+#### 🔑 **1. Login**
 - **Method:** POST  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/auth/login`  
 - **Headers:**  
@@ -25,7 +25,7 @@
 
 ---
 
-#### 🔑 **2. Create Product**
+#### 🛒 **2. Create Product**
 - **Method:** POST  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/product/add-product`  
 - **Headers:**  
@@ -52,7 +52,7 @@ productFor:women
 
 ---
 
-#### 🛒 **3. Create Order**
+#### 📦 **3. Create Order**
 - **Method:** POST  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/order/create-order`  
 - **Headers:**  
@@ -75,7 +75,7 @@ productFor:women
 
 ---
 
-#### 🛍️ **4. View Order Details**
+#### 👀 **4. View Order Details**
 - **Method:** GET  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id={{orderId}}`  
 - **Headers:**  
@@ -103,7 +103,7 @@ productFor:women
 
 ---
 
-#### 💳 **5. Delete Product**
+#### ❌ **5. Delete Product**
 - **Method:** DELETE  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/product/delete-product/{{productId}}`  
 - **Headers:**  
@@ -118,7 +118,7 @@ productFor:women
       "message": "Product Deleted Successfully"
     }
     ```
-#### 💳 **5. Delete Order**
+#### 🗑️ **5. Delete Order**
 - **Method:** DELETE  
 - **URL:** `https://rahulshettyacademy.com/api/ecom/order/delete-order/{{orderId}}`  
 - **Headers:**  
